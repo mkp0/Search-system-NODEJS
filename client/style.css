@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+h1 {
+    font-family: Arial, Helvetica;
+    font-size: 2rem;
+    color: rgb(28, 37, 35);
+    text-align: center;
+}
+
+.container {
+    min-height: 100vh;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box {
+    margin: 2rem 0;
+    height: 2rem;
+    width: 12rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.add1 {
+    font-family: Arial, Helvetica;
+    color: rgb(77, 42, 110);
+    margin: 2rem 0;
+}
+
+.form-data {
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(142, 252, 219);
+    padding: 3rem;
+    position: absolute;
+    top: 0;
+    right: 5rem
+}
+
+
+.submit-button {
+    background-color: rgb(117, 117, 253);
+    font-size: 1.5rem;
+}
